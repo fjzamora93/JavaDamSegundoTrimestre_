@@ -46,6 +46,11 @@ public class Libro {
 		this.editorial = editorial;
 		this.paginas = paginas;
 	}
+	
+	public Libro() {
+		super();
+		
+	}
 		
 	//Getter and setter
 	public long getIsbn() {
